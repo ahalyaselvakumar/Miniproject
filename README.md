@@ -1,31 +1,58 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+Distraction Detector – Real-Time Driver Alertness Monitoring System
+
+Small Description:
+The Distraction Detector is a real-time vision-based driver monitoring system designed to detect driver distraction by analyzing eye behavior using Eye Aspect Ratio (EAR). The system continuously monitors driver alertness through a camera and provides timely alerts to prevent accidents caused by inattentive driving.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Distraction Detector is an intelligent transportation safety project that focuses on identifying driver distraction using computer vision techniques. With the increasing use of mobile devices and long driving durations, driver inattentiveness has become a major cause of road accidents.
+
+This project uses facial landmark detection to track eye movements and blinking patterns in real time. By calculating the Eye Aspect Ratio (EAR) from live video frames, the system determines whether the driver's eyes are open or closed. If the EAR value remains below a predefined threshold for a certain duration, the system classifies the driver as distracted and immediately triggers an alert.
+
+The solution is non-intrusive, cost-effective, and runs efficiently on standard hardware without requiring wearable sensors or complex deep learning models, making it suitable for real-world deployment.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+Real-time driver eye monitoring using camera input
+
+Eye Aspect Ratio (EAR)–based distraction detection
+
+Non-intrusive and sensor-free system
+
+Lightweight and computationally efficient
+
+Real-time alert system for distracted driving
+
+Works under varying lighting and driving conditions
+
+No requirement for deep learning models
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+Operating System:
+    Windows 10 (64-bit) or Ubuntu (64-bit)
+
+Development Environment:
+    Python 3.6 or later
+
+Computer Vision Libraries:
+    OpenCV for real-time video processing
+    Dlib for facial landmark detection
+   
+Additional Libraries:
+   NumPy for numerical operations
+   imutils for image processing utilities
+
+Hardware Requirements:
+   Standard webcam or in-car camera
+   Minimum 4 GB RAM
+   Intel i3 processor or higher
+
+IDE:
+   VS Code / PyCharm
+
+Version Control:
+   Git for source code management
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
 ![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
 
@@ -33,26 +60,30 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - FOCUSED
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+<img width="1280" height="678" alt="image" src="https://github.com/user-attachments/assets/b1213b19-9b50-4563-8ae6-a493b47a7ff6" />
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output2 - DROWSINESS DETECTED
+
+![WhatsApp Image 2025-12-24 at 22 09 03_54b671e4](https://github.com/user-attachments/assets/17d3c773-5c9c-4798-aeb1-2ee381cfcb71)
+
+
+Detection Accuracy: 95.8%
+
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The Distraction Detector effectively identifies inattentive driving behavior with high accuracy and minimal processing delay. The system enhances road safety by providing early warnings to drivers, reducing the likelihood of accidents caused by fatigue or distraction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+By leveraging computer vision and geometric analysis, this project demonstrates a practical and scalable approach for real-time driver monitoring systems. It serves as a foundation for advanced intelligent transportation solutions and can be further extended with yawning detection, head pose estimation, or mobile usage detection.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. T. Soukupová and J. Čech, “Real-Time Eye Blink Detection using Facial Landmarks,” 21st Computer Vision Winter Workshop, 2016.
+2. P. Viola and M. Jones, “Rapid Object Detection using a Boosted Cascade of Simple Features,” IEEE CVPR, 2001.
+3. N. S. Gupta et al., “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods,” EAI Endorsed Transactions on IoT, vol. 10, Mar. 2024.
+4. A. A. Bin Zainuddin, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain,” Data Science Insights, vol. 2, no. 1, Feb. 2024.
 
 
 

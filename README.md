@@ -54,7 +54,8 @@ Version Control:
 
 ## System Architecture
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+<img width="278" height="338" alt="image" src="https://github.com/user-attachments/assets/ec8f3177-27d7-43fe-b9e5-369b2601d4b1" />
+
 
 
 ## Output
